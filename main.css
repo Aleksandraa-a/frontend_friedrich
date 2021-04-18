@@ -1,0 +1,113 @@
+html, body {
+font-family: 'Lora', serif;
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+}
+
+h1, h2, p{
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+}
+
+.left {
+
+  flex: 0 0 30.46%;
+  height: 100%;
+background: linear-gradient(180deg, rgba(245, 235, 211, 0.86) 0%, rgba(195, 208, 231, 0.81) 0.01%, rgba(212, 213, 219, 0.62) 56.25%, #2C2928 100%);
+}
+
+.right{
+
+  position: relative;
+  flex: 0 1 100%;
+  height: 100%;
+  padding-left:21.35%;
+}
+
+.main-nav ul{
+  display: flex;
+  list-style-type:none;
+  justify-content: space-between;
+  padding: 0;
+  margin-right: 126px;
+
+}
+
+.main-nav li{
+  font-size: 2.44vw;
+  position: relative;
+
+}
+
+.main-nav li::after, li::before{
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #A2BFDF;
+  transition: 0.5s;
+}
+
+.main-nav li::before{
+  position: absolute;
+  right: 0;
+}
+
+.main-nav li:hover::after, li:hover::before{
+  width: 100%;
+}
+
+.main-nav{
+  padding: 4.9% 0 0 0;
+  width: 100%;
+}
+
+.intro{
+  margin-top: 11.48%;
+}
+
+.intro h1{
+  font-size: 3.33vw;
+  font-weight: bolder;
+  text-shadow: 3px 3px #e6f7ff;
+}
+
+.intro h2{
+  margin-top: 2%;
+  font-size: 1.2vw;
+  font-weight: normal;
+}
+
+.intro p{
+  margin-top: 10.37%;
+  font-size: 1.51vw;
+  width: 35vw;
+  letter-spacing: 0.015em;
+  line-height: 147.5%;
+}
+
+.intro .quote{
+  margin-top: 2%;
+  font-size: 1.2vw;
+}
+
+.main-img{
+  object-fit: cover;
+  position: absolute;
+  width: 28.13vw;
+  height: 73.05vh;
+  left: 16.42vw;
+  top: 13.42vh;
+}
+/* Rectangle 1 */
+
+/* Rectangle 1 */
